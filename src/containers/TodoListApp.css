@@ -1,0 +1,50 @@
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item.is-done {
+  text-decoration: line-through;
+}
+
+.item-wrapper {
+  background-color: #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 600px;
+}
+
+.texts-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column
+}
+
+.item-title {
+  font-size: 22px;
+}
+
+.item-description {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
